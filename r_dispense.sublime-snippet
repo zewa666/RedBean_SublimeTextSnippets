@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+\$${1:bean} = R::dispense('${1:bean}'${2:, ${3:(int)amount}});
+]]></content>
+  <tabTrigger>rdispense</tabTrigger>
+  <description>RedBean dispense new Bean</description>
+  <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+R::trash(${1:\$bean});
+]]></content>
+  <tabTrigger>rtrash</tabTrigger>
+  <description>RedBean trash a Bean</description>
+  <scope>source.php</scope>
+</snippet>

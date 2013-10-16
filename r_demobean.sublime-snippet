@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+\$${1:user} = R::dispense('${2:user}');
+\$${1:user}->${3:name} = "${3:name}";
+\$${1:user}->${4:title} = "${4:title}";
+\$${1:user}->${5:ownHobby} = \$${6:hobby};
+
+\$${6:hobby} = R::dispense('${7:hobby}');
+\$${6:user}->${8:name} = "${8:name}";
+
+R::store(\$${1:user});
+
+]]></content>
+  <tabTrigger>rdemobean</tabTrigger>
+  <description>RedBean demo workflow for a bean</description>
+  <scope>source.php</scope>
+</snippet>

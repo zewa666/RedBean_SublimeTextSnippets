@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+R::exec(' ${1:SQLQUERY} ');
+]]></content>
+  <tabTrigger>rexec</tabTrigger>
+  <description>RedBean execute query</description>
+  <scope>source.php</scope>
+</snippet>

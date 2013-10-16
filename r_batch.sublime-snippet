@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$${1:bean} = R::batch('${1:bean}', array(${2:\$id1}, ${3:\$id2}));
+]]></content>
+	<tabTrigger>rbatch</tabTrigger>
+	<description>RedBean batch load beans</description>
+	<scope>source.php</scope>
+</snippet>

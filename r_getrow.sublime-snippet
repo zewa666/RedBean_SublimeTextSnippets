@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+\$${1:bean} = R::getRow('SELECT * FROM ${1:bean} WHERE ${2:property} = ${3::param} ',
+           array('${3:\:param}' => ${4:\$var} )
+         );
+]]></content>
+  <tabTrigger>rgetrow</tabTrigger>
+  <description>RedBean getRow query</description>
+  <scope>source.php</scope>
+</snippet>

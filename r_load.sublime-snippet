@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$${1:bean} = R::load('${1:bean}', ${2:\$id});
+]]></content>
+	<tabTrigger>rload</tabTrigger>
+	<description>RedBean load a bean</description>
+	<scope>source.php</scope>
+</snippet>

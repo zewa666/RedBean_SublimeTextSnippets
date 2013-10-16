@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$${1:bean} = R::findAll('${1:bean}',' ${2:ORDER BY} ${3:property} ');
+]]></content>
+	<tabTrigger>rfindall</tabTrigger>
+	<description>RedBean findAll beans</description>
+	<scope>source.php</scope>
+</snippet>

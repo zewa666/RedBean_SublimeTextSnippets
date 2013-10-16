@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+R::nuke();
+]]></content>
+  <tabTrigger>rnuke</tabTrigger>
+  <description>RedBean nuke complete DB</description>
+  <scope>source.php</scope>
+</snippet>

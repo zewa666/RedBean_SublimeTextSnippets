@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+\$${1:id} = R::store(${2:\$bean});
+]]></content>
+  <tabTrigger>rstore</tabTrigger>
+  <description>RedBean store a Bean</description>
+  <scope>source.php</scope>
+</snippet>

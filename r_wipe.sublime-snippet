@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+R::wipe('${1:bean}');
+]]></content>
+  <tabTrigger>rwipe</tabTrigger>
+  <description>RedBean wipe all Beans of type</description>
+  <scope>source.php</scope>
+</snippet>

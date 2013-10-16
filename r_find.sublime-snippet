@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$${1:bean} = R::find('${1:bean}',' ${2:property} = ${3::param} ',
+           array('${3:\:param}' => ${4:\$var} )
+         );
+]]></content>
+	<tabTrigger>rfind</tabTrigger>
+	<description>RedBean find</description>
+	<scope>source.php</scope>
+</snippet>
