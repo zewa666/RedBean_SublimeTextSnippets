@@ -8,4 +8,4 @@ This repository provides [Sublime Text 2 Snippets](http://www.sublimetext.com/) 
 Installation
 -----
 
-Use Sublime Text 2's Package Control (Preferences -> Package Control -> Install Package -> Additional PHP Snippets) to install this plugin.
+Use Sublime Text 2's Package Control (Preferences -> Package Control -> Install Package -> RedBeanPHP ORM Snipppets) to install this plugin.
