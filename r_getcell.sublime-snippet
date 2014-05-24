@@ -1,1 +1,10 @@
-r_getall.sublime-snippet
+<snippet>
+  <content><![CDATA[
+\$${1:bean} = R::getRow('SELECT count(id) FROM ${1:bean} WHERE ${2:property} = ${3::param} ',
+           array('${3:\:param}' => ${4:\$var} )
+         );
+]]></content>
+  <tabTrigger>rgetcell</tabTrigger>
+  <description>RedBean getCell query</description>
+  <scope>source.php</scope>
+</snippet>
